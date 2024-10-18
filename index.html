@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADHD - Support Path</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Login/Signup Buttons -->
+    <div class="top-banner d-flex justify-content-end align-items-center p-2">
+      <a href="login-signup.html" class="btn btn-outline-primary me-2">Login</a>
+      <a href="signup.html" class="btn btn-outline-success">Sign Up</a>
+    </div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="Logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About ADHD
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="understanding-adhd.html"
+                    >Understanding ADHD</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">For Parents & Caregivers</a>
+                </li>
+                <li><a class="dropdown-item" href="#">For Educators</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="resourcesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                <li>
+                  <a class="dropdown-item" href="InfoLib.html"
+                    >ADHD Information Library</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">ADHD Fact Sheets</a></li>
+                <li><a class="dropdown-item" href="#">Infographics</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="getSupportDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Get Support
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="getSupportDropdown">
+                <li><a class="dropdown-item" href="#">Books</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">ADHD - Related Videos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Contact: +977-9812345760</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div
+      id="heroCarousel"
+      class="carousel slide hero-slider"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item active">
+          <img src="kid.jpg" alt="Slide 1" />
+          <div class="overlay">
+            <h1>Welcome to ADHD Support</h1>
+            <p>Your journey to understanding starts here.</p>
+            <p>Explore resources and get the help you need.</p>
+            <a href="Read1.html" class="btn btn-read-more">Read More</a>
+          </div>
+        </div>
+        <!-- Second Slide -->
+        <div class="carousel-item">
+          <img src="Adult.jpg" alt="Slide 2" />
+          <div class="overlay">
+            <h1>Understanding ADHD</h1>
+            <p>Learn about the symptoms and challenges.</p>
+            <p>Knowledge is the first step towards support.</p>
+            <a href="Read2.html" class="btn btn-read-more">Read More</a>
+          </div>
+        </div>
+        <!-- Third Slide -->
+        <div class="carousel-item">
+          <img src="Teen.jpg" alt="Slide 3" />
+          <div class="overlay">
+            <h1>Resources for You</h1>
+            <p>Access helpful materials and guides.</p>
+            <p>Find the support you need for success.</p>
+            <a href="Read3.html" class="btn btn-read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+    </div>
+
+    <!-- Event Section  -->
+    <section class="event-section bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row mb-4">
+              <div class="col-md-6">
+                <div class="event-box p-4 mb-4">
+                  <h3>Training in ADHD</h3>
+                  <p>
+                    Self-paced online courses for better understanding of ADHD.
+                  </p>
+                  <a href="#" class="btn btn-primary">Register</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="event-box p-4 mb-4">
+                  <h3>Listen to Podcasts</h3>
+                  <p>
+                    Engage with podcasts discussing ADHD and related topics.
+                  </p>
+                  <a href="#" class="btn btn-primary">Register</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="event-box p-4 mb-4">
+                  <h3>ADHD Awareness Month</h3>
+                  <p>Join us in raising awareness about ADHD this month.</p>
+                  <a href="#" class="btn btn-primary">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subscription Form -->
+          <div class="col-lg-4">
+            <div class="subscription-box p-4">
+              <h4>Subscribe to Our Mailing List</h4>
+              <form>
+                <div class="form-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <button type="submit" class="btn btn-secondary w-100">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h5>ADHD Support Group</h5>
+            <p>Location: Kathmandu, Nepal</p>
+            <p>Tel: +977-981236899 | Fax: 891-827-1763</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="Logo.png" alt="Logo" class="footer-logo mb-3" />
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/groups/2458663604174184"
+                target="_blank"
+                ><img src="Facebook.png" alt="Facebook"
+              /></a>
+              <a href="https://x.com/360Adhd" target="_blank"
+                ><img src="Twitter.png" alt="Twitter"
+              /></a>
+              <a
+                href="https://www.instagram.com/adh.dsupportgroup/"
+                target="_blank"
+                ><img src="Insta.png" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

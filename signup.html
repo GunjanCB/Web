@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Understanding ADHD</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Login/Signup Buttons -->
+    <div class="top-banner d-flex justify-content-end align-items-center p-2">
+      <a href="login-signup.html" class="btn btn-outline-primary me-2">Login</a>
+      <a href="signup.html" class="btn btn-outline-success">Sign Up</a>
+    </div>
+
+    <!-- Navigation Bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="Logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About ADHD
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="understanding-adhd.html"
+                    >Understanding ADHD</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">For Parents & Caregivers</a>
+                </li>
+                <li><a class="dropdown-item" href="#">For Educators</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Signup Section -->
+    <section class="login-signup-section container py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="signup-box gray-box p-4">
+            <h2 class="text-center">Signup</h2>
+            <form id="signupForm">
+              <div class="mb-3">
+                <label for="signupFirstName" class="form-label"
+                  >First Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="signupFirstName"
+                  placeholder="Enter your first name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="signupLastName" class="form-label">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="signupLastName"
+                  placeholder="Enter your last name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="signupEmail" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="signupEmail"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="signupPassword" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="signupPassword"
+                  placeholder="Create a password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Sign Up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h5>ADHD Support Group</h5>
+            <p>Location: Kathmandu, Nepal</p>
+            <p>Tel: +977-981236899 | Fax: 891-827-1763</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="Logo.png" alt="Logo" class="footer-logo mb-3" />
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/groups/2458663604174184"
+                target="_blank"
+                ><img src="Facebook.png" alt="Facebook"
+              /></a>
+              <a href="https://x.com/360Adhd" target="_blank"
+                ><img src="Twitter.png" alt="Twitter"
+              /></a>
+              <a
+                href="https://www.instagram.com/adh.dsupportgroup/"
+                target="_blank"
+                ><img src="Insta.png" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
